@@ -1,0 +1,119 @@
+body
+{
+    background-color:#8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#RecetteTxt{
+    
+    
+    display: inline-block;
+    padding: 10px;
+    margin-top: -15px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+}
+
+h1,p
+{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+display: block;
+}
+
+#BigCont
+{
+    min-width: 297px;
+    margin: 5%;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow:0px 0px 7px 0px black;
+    
+}
+
+.image
+{
+    background-color: lightgray;
+    min-height: 300px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 650px;
+}
+
+.tableau{
+position: absolute;
+bottom: 0px;
+width: 100%;
+background-color: #6C829D99;
+color: white;
+
+}
+
+.centre{
+    text-align: center;
+}
+
+#separator{
+    height: 1px;
+    background-color: black;
+    width: 100px;
+    margin: auto;
+}
+
+div.colonne
+{
+    margin-top: 20px;
+    width: 50%; 
+}
+
+div.colonne h2
+{
+    text-align: center;
+    text-transform: uppercase;
+border-bottom:#8BA1BB 5px solid;
+display: inline-block;
+}
+
+div.colonne1
+{
+    display: inline-block;
+    width: 50%;
+}
+
+div.colonne2
+{
+    width: 45%;
+    float: right;
+}
+
+div.colonne1 p
+{
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 30px;
+    font-size: 14px;
+    padding: 0px;
+    border: lightgray solid 1px;
+}
+
+table.preparation p.numero
+{
+    background-color: #8BA1BB;
+    color: white;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    
+}
